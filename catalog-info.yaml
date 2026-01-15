@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'labs-Kamil-Biegaj-HM-nodejs'
+  name: 'labs-kamil-biegaj-hm-nodejs'
   description: "Deploying a Node.js application"
   annotations:
     # This must match folder-name/job-name in Jenkins.
-    jenkins.io/job-full-name: cft:HMCTS_labs/labs-Kamil-Biegaj-HM-nodejs
-    github.com/project-slug: 'hmcts/labs-Kamil-Biegaj-HM-nodejs'
+    jenkins.io/job-full-name: cft:HMCTS_labs/labs-kamil-biegaj-hm-nodejs
+    github.com/project-slug: 'hmcts/labs-kamil-biegaj-hm-nodejs'
   tags:
     - nodejs
   links:

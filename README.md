@@ -1,4 +1,4 @@
-# labs-Kamil-Biegaj-HM-nodejs
+# labs-kamil-biegaj-hm-nodejs
 
 Deploying a Node.js application
 

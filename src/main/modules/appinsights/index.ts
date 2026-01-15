@@ -7,7 +7,7 @@ export class AppInsights {
     if (config.get('appInsights.instrumentationKey')) {
       appInsights.setup(config.get('appInsights.instrumentationKey')).setSendLiveMetrics(true).start();
       const tag = appInsights.defaultClient.context.keys.cloudRole;
-      appInsights.defaultClient.context.tags[tag] = 'labs-Kamil-Biegaj-HM-nodejs';
+      appInsights.defaultClient.context.tags[tag] = 'labs-kamil-biegaj-hm-nodejs';
       appInsights.defaultClient.trackTrace({ message: 'App insights activated' });
     }
   }
